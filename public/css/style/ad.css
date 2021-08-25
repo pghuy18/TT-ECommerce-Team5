@@ -1,0 +1,118 @@
+.item {
+    background-image: url("/images/img/bg1.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .item li{
+    list-style-type: none;
+  }
+  .a1{
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    left: 500px;
+    top: 200px;
+    
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 135px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+  }
+  .a2{
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    left: 500px;
+    top: 500px;
+    
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 135px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+  }
+  .a3{
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    left: 500px;
+    top: 800px;
+    
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 135px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+  }
+  .p1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 250px;
+    top: 150px;
+    background-color:  #377081;
+    
+    mix-blend-mode: normal;
+    border-radius: 250px;
+  }
+  .p2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 250px;
+    top: 450px;
+    background-color:  #377081;
+    
+    mix-blend-mode: normal;
+    border-radius: 250px;
+  }
+  .p3{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 250px;
+    top: 750px;
+    background-color:  #377081;
+    
+    mix-blend-mode: normal;
+    border-radius: 250px;
+  }
+  .c1:hover a{
+      color:  #F9AD6A;
+  }
+  .c1:hover img{
+      background-color: #F9AD6A ;
+  }
+  .c2:hover a{
+    color:  #F9AD6A;
+}
+.c2:hover img{
+    background-color: #F9AD6A ;
+}
+.c3:hover a{
+    color:  #F9AD6A;
+}
+.c3:hover img{
+    background-color: #F9AD6A ;
+}
+
