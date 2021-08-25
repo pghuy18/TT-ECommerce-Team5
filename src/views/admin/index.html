@@ -1,12 +1,26 @@
+<link rel="stylesheet" href="/css/style/ad.css">
+
+<div class="item">
 <div class="masthead">
   <nav>
     <ul class="nav nav-justified">
       {{#if isAuthenticated}}
-      <li><a href="/admin/product">Product</a></li>
-      <li><a href="/admin/product/info">Product INFO</a></li>
-      <li><a href="/admin/category">Category</a></li>
+      <div class="c1">
+      <li><a class="a1" href="/admin/product">PRODUCT</a></li>
+      <img class="p1" src="/images/img/hot-coffee.png"/>
+      </div>
+      <div class="c2">
+      <li><a class="a2" href="/admin/product/info">PRODUCT INFO</a></li>
+      <img class="p2" src="/images/img/coffee-bag.png"/>
+      </div>
+      <div class="c3">
+      <li><a class="a3" href="/admin/category">CATEGORY</a></li>
+      <img class="p3" src="/images/img/coffee-marker.png"/>
+      </div>
+      
 
       {{/if}}
     </ul>
   </nav>
+</div>
 </div>
