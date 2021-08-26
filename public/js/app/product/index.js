@@ -142,7 +142,7 @@ product.pushOne = function (o) {
   );
   s.push(`<td>${o.info.name}</td>`);
   s.push(
-    `<td><img width="100px" src="/images/productInfo/${o.info.imgUrl}" alt="${o.info.imgUrl}"></td>`
+    `<td><img width="100px" src="/images/productInfo/${o.info.imgUrl}.jpg" alt="${o.info.imgUrl}"></td>`
   );
   s.push(product.pushCategory(o.info.category));
   s.push(`<td style="color:red;" value=${o.price}>${DOM.moneyFormat(o.price)}</td>`);

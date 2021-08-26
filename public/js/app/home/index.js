@@ -52,7 +52,7 @@ DOM.pushProductCard = function (o) {
   let s = [];
   s.push(` <div class="cardproduct">`);
   s.push(
-    ` <a href="/detail/${o._id}"><img src="/images/productInfo/${o.info.imgUrl}" widtd="30px" alt="${o.info.imgUrl}" class="imgproduct" /></a>`
+    ` <a href="/detail/${o._id}"><img src="/images/productInfo/${o.info.imgUrl}.jpg" widtd="30px" alt="${o.info.imgUrl}" class="imgproduct" /></a>`
   );
   s.push(
     `  <h2 id="productName" class="name" style="color:red">${o.info.name} ${o.size}gr </h2>`
@@ -78,7 +78,7 @@ DOM.pushProduct = function (o) {
   s.push(`<div>
     <a href="/detail/${o._id}"
       ><img
-        src="/images/productInfo/${o.info.imgUrl}"
+        src="/public/images/productInfo/${o.info.imgUrl}"
         alt="${o.info.imgUrl}"
         width="100px"
       />

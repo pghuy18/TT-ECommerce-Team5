@@ -172,7 +172,7 @@ productInfo.pushOne = function (o) {
   s.push("<tr>");
   s.push(`<td>${o.name}</td>`);
   s.push(
-    `<td><img src="/images/productInfo/${o.imgUrl}" alt="${o.imgUrl}" width="100px"/></td>`
+    `<td><img src="/images/productInfo/${o.imgUrl}.jpg" alt="${o.imgUrl}" width="100px"/></td>`
   );
   s.push(`<td>${o.subname}</td>`);
   let descript = o.description.split(".");
