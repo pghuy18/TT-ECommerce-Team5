@@ -78,7 +78,7 @@ DOM.pushProduct = function (o) {
   s.push(`<div>
     <a href="/detail/${o._id}"
       ><img
-        src="/public/images/productInfo/${o.info.imgUrl}"
+        src="/images/productInfo/${o.info.imgUrl}.jpg"
         alt="${o.info.imgUrl}"
         width="100px"
       />

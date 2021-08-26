@@ -22,7 +22,7 @@ category.setEventDelete = function (elm) {
         .then((ret) => {
           if (ret.error) helper.msg(ret.msg, true);
           else {
-            helper.msg(`SUCCESSFULLY DELTE ${ret.data.name}`);
+            helper.msg(`SUCCESSFULLY DELETE ${ret.data.name}`);
             this.parentNode.parentNode.removeChild(this.parentNode);
           }
         })
