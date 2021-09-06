@@ -9,7 +9,7 @@ module.exports.deleteCheck = async (req, res, next) => {
   if (ret) {
     if (ret.imgUrl != "default") {
       try {
-        helper.deleteFile(`/images/productInfo/${ret.imgUrl}`);
+        helper.deleteFile(`/images/productInfo/${ret.imgUrl}.jpg`);
       } catch (err) {
         return res.status(400).json(helper.stt400("Image not found"));
       }
@@ -54,7 +54,7 @@ module.exports.updateCheck = async (req, res, next) => {
     if (valid.value.imgUrl != "default") {
       //delete old img
 
-      helper.deleteFile(`/images/productInfo/${valid.value.imgUrl}`);
+      helper.deleteFile(`/images/productInfo/${valid.value.imgUrl}.jpg`);
     }
     valid.value.imgUrl = req.file.filename;
   }
